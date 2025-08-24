@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Gato Preto</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/douradologo1.jpg" class="nav-img " loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Fotos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+
+            <div id="acessibilidade" class="menu-acessibilidade">
+                <button id="botao-acessibilidade" class="btn btn-primary rotacao-botao fw-bold">Acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista ">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold">A +</button>
+
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold">A -</button>
+
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-6 text-white fst-italic fw-bold">Boas-vindas ao</h1>
+                    <img src="img/douradologo2.png" class="mb-3" width="475" height="350" loading="lazy">
+                    <a href="#gatopreto" class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                
+        </section>
+
+               <section id="gatopreto" class="my-5 pt-6 secao-gatopreto"></section>
+            <div class="container d-flex align-items-center ">
+                <div class="col-6 d-flex justify-content-center">
+                    <img src="img/flowfofo.jpg" class="rounded-pill" alt="" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>O que é o Dia do Gato Preto?</h2>
+                    <p class="p-2">No dia 27 de outubro é celebrado, em todo o mundo, o Dia do Gato Preto, 
+                        surgiu para destacar a beleza desses felinos de pelo sedoso e lutar contra o preconceito que eles sofrem por sua cor.
+                        Os gatos pretos foram, ao longo da história, os mais perseguidos. Na Idade Média,
+                     eram associados a forças do mal e muitas vezes foram queimados em fogueiras com as bruxas.
+                     Até hoje há quem acredite que eles trazem azar a quem cruzar seu caminho.
+                     Neste Dia do Gato Preto, encorajamos todos a considerar a adoção de um gato preto.
+                     Esses felinos são companheiros leais e amorosos, prontos para trazer alegria e companhia para qualquer lar,
+                      eles merecem tanto amor quanto todos os outros gatinhos de outras cores.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2 class="text-center pt-5">Gatos Famosos</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/gatofamoso1.png"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gatofamoso2.png" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                </div>
+                <div class="row mt-4  justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/gatofamoso3.png" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gatofamoso4.png"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-8 rounded-5 formulario"> 
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>    
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse minhas redes-sociais:</p>
+        <a href="https://www.instagram.com/tiffanyof_/" target="_blank">
+        <i class="bi bi-instagram"></i>
+          </a>
+        <a href="https://myaccount.google.com/u/1/?gar=WzI4MV0&hl=en&utm_source=OGB&utm_medium=act" target="_blank">
+        <i class="bi bi-envelope-fill"></i>
+          </a>
+          <a href href="https://github.com/TiffanyOF" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+        <p class="mt-3">Desenvolvido por Tiffany de O. Ferreira</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
